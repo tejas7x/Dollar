@@ -26,9 +26,9 @@ os.makedirs(CREDENTIALS_FOLDER, exist_ok=True)
 TARGET_USER = "vip_mrxop"
 
 # Timing Settings
-MIN_DELAY = 10
-MAX_DELAY = 20
-CYCLE_DELAY =300
+MIN_DELAY = 20
+MAX_DELAY = 35
+CYCLE_DELAY =1800
 MAX_CONCURRENT = 10
 
 # Set up logging
@@ -38,7 +38,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-AUTO_REPLY_MESSAGE ="Sir please \n\nMessage here 👉  @Legit_4u 🦂"
+AUTO_REPLY_MESSAGE ="Sir please🙏 \n\nMessage here 👉  @MR_XSHOP"
 
 def display_banner():
     """Display the banner"""
